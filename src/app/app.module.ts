@@ -1,4 +1,3 @@
-import { HomePage } from './../pages/home/home';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
@@ -17,9 +16,11 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 import { MomentModule } from 'angular2-moment';
 
 // import services
+//importar as paginas criadas aqui
 import { HttpClientModule } from '@angular/common/http';
-//import { HomePage } from '../pages/home/home';
-import { HomePage } from '../pages/home/home';
+import { LoginPage } from '../pages/login/login';
+import { HomePage } from './../pages/home/home';
+import {RegisterPage} from './../pages/register/register';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBrtAgU0fHKzwi99jFC0ETM_GRgnTwxoY4",
@@ -33,8 +34,11 @@ export const firebaseConfig = {
 
 @NgModule({
   declarations: [
+    //incorporar cada pagina criada aqui
     MyApp,
-    HomePage
+    HomePage,
+    LoginPage,
+    RegisterPage
   ],
   imports: [
     BrowserModule,
@@ -49,8 +53,11 @@ export const firebaseConfig = {
   ],
   bootstrap: [IonicApp],
   entryComponents: [
+    // incorporar cada pagina aqui
     MyApp,
-    HomePage
+    HomePage,
+    LoginPage,
+    RegisterPage
   ],
   providers: [
     StatusBar,
