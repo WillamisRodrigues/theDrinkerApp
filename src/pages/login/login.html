@@ -1,0 +1,20 @@
+<ion-content>
+  <img src="assets/img/logo.png" />
+  <ion-list class="list-form" padding>
+    <ion-item>
+      <ion-input type="text" placeholder="CPF"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input placeholder="Senha" type="password" [(ngModel)]="userInfo.password"></ion-input>
+    </ion-item>
+    <br>
+    <div text-center>
+      <button padding ion-button (click)="home()" round color="primary">{{'ENTRAR' | translate}}</button>
+      <p ion-text>Esqueceu a senha?</p> 
+    </div>
+  </ion-list>
+  <div text-center>
+    <p ion-text>Não tem cadastro?</p> 
+    <button padding ion-button   (click)="signup()" routerDirection="root"  round color="primary">CRIAR CADASTRO</button>
+  </div>
+</ion-content>

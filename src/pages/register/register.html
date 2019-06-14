@@ -1,0 +1,41 @@
+<ion-content>
+    <img src="assets/icon/back.png" alt="" style="position: absolute; width:30px; top:10px;" (click)="login()">
+    <img src="assets/img/logo.png" />
+  <ion-list class="list-form" padding>
+    <ion-item>
+      <ion-input type="text" placeholder="NOME" class="text-cadastro"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="CPF"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="RG"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="DATA DE NASCIMENTO"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="SENHA"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="CONFIRMAR SENHA"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="EMAIL"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="TELEFONE"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="font-size:10px; margin-left:5px;">Deseja receber novidades e ofertas via email.</ion-label>
+      <ion-checkbox style="margin:0 0 0 20px!important;"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-label style="font-size:10px; margin-left:5px;">Eu concordo com termos e condições.</ion-label>
+      <ion-checkbox style="margin:0 0 0 20px!important;"></ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <button ion-button padding block (click)="signup()" round>{{'CRIAR CADASTRO' | translate}}</button>
+    </ion-item>
+  </ion-list>
+</ion-content>
