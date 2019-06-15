@@ -28,7 +28,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
-          this.nav.setRoot(LoginPage);
+          this.nav.setRoot(HomePage);
 
       // get user data
       afAuth.authState.subscribe(authData => {
