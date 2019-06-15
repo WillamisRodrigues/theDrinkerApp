@@ -6,6 +6,7 @@ import { ViewChild } from '@angular/core';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
+import { UsuarioPage } from '../pages/usuario/usuario';
 
 // import pages
 import { AngularFireAuth } from "angularfire2/auth/auth";
@@ -28,7 +29,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
-          this.nav.setRoot(HomePage);
+          this.nav.setRoot(UsuarioPage);
 
       // get user data
       afAuth.authState.subscribe(authData => {

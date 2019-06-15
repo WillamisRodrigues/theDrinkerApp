@@ -21,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoginPage } from '../pages/login/login';
 import { HomePage } from './../pages/home/home';
 import {RegisterPage} from './../pages/register/register';
+import {UsuarioPage} from './../pages/usuario/usuario';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBrtAgU0fHKzwi99jFC0ETM_GRgnTwxoY4",
@@ -38,7 +39,8 @@ export const firebaseConfig = {
     MyApp,
     HomePage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    UsuarioPage
   ],
   imports: [
     BrowserModule,
@@ -57,7 +59,8 @@ export const firebaseConfig = {
     MyApp,
     HomePage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    UsuarioPage
   ],
   providers: [
     StatusBar,
