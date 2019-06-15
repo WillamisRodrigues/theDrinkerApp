@@ -22,6 +22,7 @@ import { LoginPage } from '../pages/login/login';
 import { HomePage } from './../pages/home/home';
 import {RegisterPage} from './../pages/register/register';
 import {UsuarioPage} from './../pages/usuario/usuario';
+import {BuscaPage} from './../pages/busca/busca';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBrtAgU0fHKzwi99jFC0ETM_GRgnTwxoY4",
@@ -40,7 +41,8 @@ export const firebaseConfig = {
     HomePage,
     LoginPage,
     RegisterPage,
-    UsuarioPage
+    UsuarioPage,
+    BuscaPage
   ],
   imports: [
     BrowserModule,
@@ -60,7 +62,8 @@ export const firebaseConfig = {
     HomePage,
     LoginPage,
     RegisterPage,
-    UsuarioPage
+    UsuarioPage,
+    BuscaPage
   ],
   providers: [
     StatusBar,
