@@ -4,7 +4,7 @@ webpackJsonp([5],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListaProdutosPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuarioPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -19,29 +19,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the ListaProdutosPage page.
+ * Generated class for the UsuarioPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var ListaProdutosPage = (function () {
-    function ListaProdutosPage(navCtrl, navParams) {
+var UsuarioPage = (function () {
+    function UsuarioPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    ListaProdutosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ListaProdutosPage');
+    UsuarioPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad UsuarioPage');
     };
-    ListaProdutosPage = __decorate([
+    UsuarioPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-lista-produtos',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/lista-produtos/lista-produtos.html"*/'<!--\n  Generated template for the ListaProdutosPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>lista-produtos</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/lista-produtos/lista-produtos.html"*/,
+            selector: 'page-usuario',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/'<ion-content>\n    <img src="assets/icon/back.png" alt="" style="width:20px; top:10px; position:absolute;">\n    <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Nome do Usuário</ion-title>\n    <hr>\n    <br>\n    <ion-list>\n        <ion-item>\n          <img src="assets/img/config.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Configurações</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/pedidos.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Pedidos</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/carteira.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Formas de Pagamento</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/cupons.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Cupons e Promoção</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/avalie.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Avaliar o app</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/ajuda.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Ajuda</h3>\n        </ion-item>\n      </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], ListaProdutosPage);
-    return ListaProdutosPage;
+    ], UsuarioPage);
+    return UsuarioPage;
 }());
 
-//# sourceMappingURL=lista-produtos.js.map
+//# sourceMappingURL=usuario.js.map
 
 /***/ }),
 
@@ -270,7 +270,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/home/home.html"*/'<ion-content>\n    <img src="assets/img/user.png" style="width:35px; top:10px; left:10px; position:absolute;" alt="">\n    <ion-searchbar value="dd" style="width:260px; margin-left:50px;"></ion-searchbar>\n  <ion-item detail>\n    <ion-label>\n      <img src="assets/img/entrega2.png" style="width:30px; position:absolute;" alt="">\n      <p style="margin-left:40px; margin-top:8px;"> Rua Tal, 01 </p>\n    </ion-label>\n  </ion-item>\n  <!-- <ion-item>\n    \n  </ion-item> -->\n  <ion-grid>\n      <ion-row>\n        <ion-col>\n            <img src="assets/img/drinker.jpg" alt="">\n            <p style="position: absolute; top:88px;">Titulo da propaganda</p>\n            <p style="font-size: 9pt;"> descrição propaganda</p>\n        </ion-col>\n        <ion-col>\n            <img src="assets/img/drinker.jpg" alt="">\n            <p style="position: absolute; top:88px;">Titulo da propaganda</p>\n            <p style="font-size: 9pt;"> descrição propaganda</p>\n        </ion-col>\n      </ion-row>\n      <ion-list>\n          <hr>\n          <ion-item>  <img src="assets/img/loja.png" alt="" style="width:25px; position:absolute;"> <p style="margin-left:30px; margin-top:5px; font-weight: bold;">Comércios</p></ion-item>\n          <ion-item>\n              <img src="assets/img/user.png" alt="" style="width:30px; position:absolute;">\n                <p style="margin-left:35px;">Nome </p>\n              <ion-row>\n                  <img src="assets/img/local.png" style="width:10px; left:50px; position:absolute;" alt="">\n                <p style="margin-left:45px; font-size:8pt;">10k</p>\n                <img src="assets/img/entrega2.png" style="width:12px; left:90px; position:absolute;" alt="">\n                <p style="margin-left:28px; font-size:8pt;">R$ 00,00</p>\n                <img src="assets/img/tempo.png" style="width:12px; left:156px; position:absolute;" alt="">\n                <p style="margin-left:22px; font-size:8pt;">2 a 5 min </p>\n                <img src="assets/img/platina.png" style="width:12px; top:24px; right:35px; position:absolute;" alt="">\n                <h3 style="position: absolute; top:20px; right:10px; color: #668292;">0.0</h3>\n              </ion-row>\n          </ion-item>\n          <ion-item>\n              <img src="assets/img/user.png" alt="" style="width:30px; position:absolute;">\n                <p style="margin-left:35px;">Nome </p>\n              <ion-row>\n                  <img src="assets/img/local.png" style="width:10px; left:50px; position:absolute;" alt="">\n                <p style="margin-left:45px; font-size:8pt;">10k</p>\n                <img src="assets/img/entrega2.png" style="width:12px; left:90px; position:absolute;" alt="">\n                <p style="margin-left:28px; font-size:8px">R$ 00,00</p>\n                <img src="assets/img/tempo.png" style="width:12px; left:156px; position:absolute;" alt="">\n                <p style="margin-left:22px; font-size:8pt;">2 a 5 min </p>\n                <img src="assets/img/platina.png" style="width:12px; top:24px; right:35px; position:absolute;" alt="">\n                <h3 style="position: absolute; top:20px; right:10px; color: #668292;">0.0</h3>\n              </ion-row>\n          </ion-item>\n        </ion-list>\n    </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/home/home.html"*/,
+            selector: 'page-home',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/home/home.html"*/'<ion-content>\n    <img src="assets/img/user.png" style="width:35px; top:10px; left:10px; position:absolute;" alt="">\n    <ion-searchbar style="width:260px; margin-left:50px;"></ion-searchbar>\n  <ion-item detail>\n    <ion-label>\n      <img src="assets/img/entrega2.png" style="width:30px; position:absolute;" alt="">\n      <p style="margin-left:40px; margin-top:8px;"> Rua Tal, 01 </p>\n    </ion-label>\n  </ion-item>\n  <!-- <ion-item>\n    \n  </ion-item> -->\n  <ion-grid>\n      <ion-row>\n        <ion-col>\n            <img src="assets/img/drinker.jpg" alt="">\n            <p style="position: absolute; top:88px;">Titulo da propaganda</p>\n            <p style="font-size: 9pt;"> descrição propaganda</p>\n        </ion-col>\n        <ion-col>\n            <img src="assets/img/drinker.jpg" alt="">\n            <p style="position: absolute; top:88px;">Titulo da propaganda</p>\n            <p style="font-size: 9pt;"> descrição propaganda</p>\n        </ion-col>\n      </ion-row>\n      <ion-list>\n          <hr>\n          <ion-item>  <img src="assets/img/loja.png" alt="" style="width:25px; position:absolute;"> <p style="margin-left:30px; margin-top:5px; font-weight: bold;">Comércios</p></ion-item>\n          <ion-item>\n              <img src="assets/img/user.png" alt="" style="width:30px; position:absolute;">\n                <p style="margin-left:35px;">Nome </p>\n              <ion-row>\n                  <img src="assets/img/local.png" style="width:10px; left:50px; position:absolute;" alt="">\n                <p style="margin-left:45px; font-size:8pt;">10k</p>\n                <img src="assets/img/entrega2.png" style="width:12px; left:90px; position:absolute;" alt="">\n                <p style="margin-left:28px; font-size:8pt;">R$ 00,00</p>\n                <img src="assets/img/tempo.png" style="width:12px; left:156px; position:absolute;" alt="">\n                <p style="margin-left:22px; font-size:8pt;">2 a 5 min </p>\n                <img src="assets/img/platina.png" style="width:12px; top:24px; right:35px; position:absolute;" alt="">\n                <h3 style="position: absolute; top:20px; right:10px; color: #668292;">0.0</h3>\n              </ion-row>\n          </ion-item>\n          <ion-item>\n              <img src="assets/img/user.png" alt="" style="width:30px; position:absolute;">\n                <p style="margin-left:35px;">Nome </p>\n              <ion-row>\n                  <img src="assets/img/local.png" style="width:10px; left:50px; position:absolute;" alt="">\n                <p style="margin-left:45px; font-size:8pt;">10k</p>\n                <img src="assets/img/entrega2.png" style="width:12px; left:90px; position:absolute;" alt="">\n                <p style="margin-left:28px; font-size:8px">R$ 00,00</p>\n                <img src="assets/img/tempo.png" style="width:12px; left:156px; position:absolute;" alt="">\n                <p style="margin-left:22px; font-size:8pt;">2 a 5 min </p>\n                <img src="assets/img/platina.png" style="width:12px; top:24px; right:35px; position:absolute;" alt="">\n                <h3 style="position: absolute; top:20px; right:10px; color: #668292;">0.0</h3>\n              </ion-row>\n          </ion-item>\n        </ion-list>\n    </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/home/home.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], HomePage);
@@ -330,7 +330,7 @@ var InfoLojaPage = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuarioPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ListaProdutosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -345,29 +345,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the UsuarioPage page.
+ * Generated class for the ListaProdutosPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var UsuarioPage = (function () {
-    function UsuarioPage(navCtrl, navParams) {
+var ListaProdutosPage = (function () {
+    function ListaProdutosPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    UsuarioPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad UsuarioPage');
+    ListaProdutosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ListaProdutosPage');
     };
-    UsuarioPage = __decorate([
+    ListaProdutosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-usuario',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/'<ion-content>\n    <img src="assets/icon/back.png" alt="" style="width:20px; top:10px; position:absolute;">\n    <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Nome do Usuário</ion-title>\n    <hr>\n    <br>\n    <ion-list>\n        <ion-item>\n          <img src="assets/img/config.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Configurações</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/pedidos.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Pedidos</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/carteira.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Formas de Pagamento</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/cupons.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Cupons e Promoção</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/avalie.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Avaliar o app</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/ajuda.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Ajuda</h3>\n        </ion-item>\n      </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/,
+            selector: 'page-lista-produtos',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/lista-produtos/lista-produtos.html"*/'<ion-content>\n  <!-- Default Item -->\n  <ion-item>\n      <img src="assets/icon/back.png" style="width:30px; top:15px; left:10px; position:absolute;" alt="">\n    <img src="assets/img/user.png" alt="" style="width:30px; position:absolute; right:10px;">\n      <p style="margin-left:35px;">Nome </p>\n    <ion-row>\n        <img src="assets/img/local.png" style="width:10px; margin-top:10px; left:50px; position:absolute;" alt="">\n      <p style="margin-left:45px; margin-top:10px; font-size:8pt;">10k</p>\n      <img src="assets/img/entrega2.png" style="width:12px; margin-top:10px; left:90px; position:absolute;" alt="">\n      <p style="margin-left:28px; margin-top:10px; font-size:8pt;">R$ 00,00</p>\n      <img src="assets/img/tempo.png" style="width:12px; margin-top:10px; left:156px; position:absolute;" alt="">\n      <p style="margin-left:22px; font-size:8pt; margin-top:10px;">2 a 5 min </p>\n      <img src="assets/img/estrela.png" style="width:12px;  top:10px; right:70px; position:absolute;" alt="">\n      <h3 style="position: absolute; top:6px; right:45px; color: #f9d33f;">0.0</h3>\n      <p style="font-size:10px; position: absolute; top:50px; right: 30px;">Ver Mais</p>\n      <img src="assets/icon/back.png" style="transform: scaleX(-1); width:10px; top:49px; right:18px; position:absolute;" alt="">\n    </ion-row>\n</ion-item>\n<ion-item>\n  Nome da Categoria\n  <hr>\n  <br>\n  <ion-row>\n      <p style="margin-left:10px; position: absolute; top:50px;">Nome </p>\n  </ion-row>\n  <ion-row style="height: 30px;">\n      <p style="margin-left:10px; position: absolute; top:75px; font-size: 8px;">\n        <span style="color:#7fe29b;">R$ </span> 00,00 </p>\n  </ion-row>\n      <img src="assets/img/user.png" alt="" style="width:30px; position:absolute; top:60px; right:10px;">\n \n</ion-item>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/lista-produtos/lista-produtos.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], UsuarioPage);
-    return UsuarioPage;
+    ], ListaProdutosPage);
+    return ListaProdutosPage;
 }());
 
-//# sourceMappingURL=usuario.js.map
+//# sourceMappingURL=lista-produtos.js.map
 
 /***/ }),
 
@@ -408,10 +408,10 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(354);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_home_home__ = __webpack_require__(357);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_register_register__ = __webpack_require__(355);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_usuario_usuario__ = __webpack_require__(359);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_usuario_usuario__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_busca_busca__ = __webpack_require__(356);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_info_loja_info_loja__ = __webpack_require__(358);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_lista_produtos_lista_produtos__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_lista_produtos_lista_produtos__ = __webpack_require__(359);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -520,7 +520,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_lista_produtos_lista_produtos__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_lista_produtos_lista_produtos__ = __webpack_require__(359);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth_auth__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -564,9 +564,10 @@ var MyApp = (function () {
                 nav: new __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"]('content')
             }
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth_auth__["a" /* AngularFireAuth */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth_auth__["a" /* AngularFireAuth */]) === "function" && _d || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c, _d;
 }());
 
 //# sourceMappingURL=app.component.js.map
