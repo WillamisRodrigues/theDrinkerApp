@@ -1,14 +1,14 @@
 webpackJsonp([5],{
 
-/***/ 477:
+/***/ 479:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ConfiguracaoPageModule", function() { return ConfiguracaoPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DadosPageModule", function() { return DadosPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__configuracao__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__dados__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var ConfiguracaoPageModule = (function () {
-    function ConfiguracaoPageModule() {
+var DadosPageModule = (function () {
+    function DadosPageModule() {
     }
-    ConfiguracaoPageModule = __decorate([
+    DadosPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__configuracao__["a" /* ConfiguracaoPage */],
+                __WEBPACK_IMPORTED_MODULE_2__dados__["a" /* DadosPage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__configuracao__["a" /* ConfiguracaoPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__dados__["a" /* DadosPage */]),
             ],
         })
-    ], ConfiguracaoPageModule);
-    return ConfiguracaoPageModule;
+    ], DadosPageModule);
+    return DadosPageModule;
 }());
 
-//# sourceMappingURL=configuracao.module.js.map
+//# sourceMappingURL=dados.module.js.map
 
 /***/ })
 
