@@ -11,6 +11,7 @@ import { BuscaPage } from '../pages/busca/busca';
 import { InfoLojaPage } from '../pages/info-loja/info-loja';
 import { ListaProdutosPage } from '../pages/lista-produtos/lista-produtos';
 import { ProdutoPage } from '../pages/produto/produto';
+import { ConfiguracaoPage } from '../pages/configuracao/configuracao';
 
 // import pages
 import { AngularFireAuth } from "angularfire2/auth/auth";
@@ -33,7 +34,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
-          this.nav.setRoot(ProdutoPage);
+          this.nav.setRoot(ConfiguracaoPage);
 
       // get user data
       afAuth.authState.subscribe(authData => {

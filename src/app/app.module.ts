@@ -26,6 +26,7 @@ import {BuscaPage} from './../pages/busca/busca';
 import {InfoLojaPage} from './../pages/info-loja/info-loja';
 import {ListaProdutosPage} from './../pages/lista-produtos/lista-produtos';
 import {ProdutoPage} from './../pages/produto/produto';
+import {ConfiguracaoPage} from './../pages/configuracao/configuracao';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBrtAgU0fHKzwi99jFC0ETM_GRgnTwxoY4",
@@ -48,7 +49,8 @@ export const firebaseConfig = {
     BuscaPage,
     InfoLojaPage,
     ListaProdutosPage,
-    ProdutoPage
+    ProdutoPage,
+    ConfiguracaoPage
   ],
   imports: [
     BrowserModule,
@@ -72,7 +74,8 @@ export const firebaseConfig = {
     BuscaPage,
     InfoLojaPage,
     ListaProdutosPage,
-    ProdutoPage
+    ProdutoPage,
+    ConfiguracaoPage
   ],
   providers: [
     StatusBar,
