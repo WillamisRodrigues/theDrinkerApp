@@ -28,6 +28,7 @@ import {ListaProdutosPage} from './../pages/lista-produtos/lista-produtos';
 import {ProdutoPage} from './../pages/produto/produto';
 import {ConfiguracaoPage} from './../pages/configuracao/configuracao';
 import {DadosPage} from './../pages/dados/dados';
+import {AlterarDadosPage} from './../pages/alterar-dados/alterar-dados';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBrtAgU0fHKzwi99jFC0ETM_GRgnTwxoY4",
@@ -52,7 +53,8 @@ export const firebaseConfig = {
     ListaProdutosPage,
     ProdutoPage,
     ConfiguracaoPage,
-    DadosPage
+    DadosPage,
+    AlterarDadosPage
   ],
   imports: [
     BrowserModule,
@@ -78,7 +80,8 @@ export const firebaseConfig = {
     ListaProdutosPage,
     ProdutoPage,
     ConfiguracaoPage,
-    DadosPage
+    DadosPage,
+    AlterarDadosPage
   ],
   providers: [
     StatusBar,

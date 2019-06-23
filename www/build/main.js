@@ -1,10 +1,10 @@
-webpackJsonp([8],{
+webpackJsonp([9],{
 
 /***/ 114:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DadosPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlterarDadosPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -19,29 +19,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the DadosPage page.
+ * Generated class for the AlterarDadosPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var DadosPage = (function () {
-    function DadosPage(navCtrl, navParams) {
+var AlterarDadosPage = (function () {
+    function AlterarDadosPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    DadosPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad DadosPage');
+    AlterarDadosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AlterarDadosPage');
     };
-    DadosPage = __decorate([
+    AlterarDadosPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-dados',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/dados/dados.html"*/'<ion-content>\n  <img src="assets/img/back.png" alt="" style="width:20px; top:10px; left:10px; position:absolute;">\n  <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Editar dados</ion-title>\n  <hr>\n  <br>\n  <ion-list>\n        <ion-item>\n          <h3 style="margin-left: 10px;">Nome Completo</h3>\n        </ion-item>\n        <ion-item>\n            <h3 style="margin-left: 10px;">CPF</h3>\n          </ion-item>\n      <ion-item>\n        <img src="assets/icon/back.png" alt="" style="width:20px; transform: scaleX(-1); position:absolute; right:10px;">\n        <h3 style="margin-left: 10px;">Telefone</h3>\n      </ion-item>\n      <ion-item>\n        <img src="assets/icon/back.png" alt="" style="width:20px; transform: scaleX(-1); position:absolute; right:10px;">\n          <h3 style="margin-left: 10px;">E-mail</h3>\n      </ion-item>\n      <ion-item>\n        <img src="assets/icon/back.png" alt="" style="width:20px; transform: scaleX(-1); position:absolute; right:10px;">\n        <h3 style="margin-left: 10px;">Senha</h3>\n      </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/dados/dados.html"*/,
+            selector: 'page-alterar-dados',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/alterar-dados/alterar-dados.html"*/'<ion-content>\n    <img src="assets/img/back.png" alt="" style="width:20px; top:10px; left:10px; position:absolute;">\n    <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Nome da Edição</ion-title>\n    <hr>\n    <br>\n    <ion-list>\n        <ion-item>\n            <ion-input placeholder="item a Editar"></ion-input>\n        </ion-item>\n        <button padding ion-button round style="background: #7ee19c; margin: 20px 100px;"> Salvar</button>\n      </ion-list>\n  </ion-content>\n  '/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/alterar-dados/alterar-dados.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], DadosPage);
-    return DadosPage;
+    ], AlterarDadosPage);
+    return AlterarDadosPage;
 }());
 
-//# sourceMappingURL=dados.js.map
+//# sourceMappingURL=alterar-dados.js.map
 
 /***/ }),
 
@@ -66,24 +66,28 @@ webpackEmptyAsyncContext.id = 123;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
+	"../pages/alterar-dados/alterar-dados.module": [
+		478,
+		8
+	],
 	"../pages/busca/busca.module": [
-		477,
+		479,
 		7
 	],
 	"../pages/configuracao/configuracao.module": [
-		478,
+		480,
 		6
 	],
 	"../pages/dados/dados.module": [
-		479,
+		481,
 		5
 	],
 	"../pages/home/home.module": [
-		480,
+		482,
 		4
 	],
 	"../pages/info-loja/info-loja.module": [
-		481,
+		483,
 		3
 	],
 	"../pages/lista-produtos/lista-produtos.module": [
@@ -91,11 +95,11 @@ var map = {
 		2
 	],
 	"../pages/produto/produto.module": [
-		482,
+		485,
 		1
 	],
 	"../pages/usuario/usuario.module": [
-		483,
+		486,
 		0
 	]
 };
@@ -297,6 +301,51 @@ var ConfiguracaoPage = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DadosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the DadosPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var DadosPage = (function () {
+    function DadosPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    DadosPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad DadosPage');
+    };
+    DadosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-dados',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/dados/dados.html"*/'<ion-content>\n  <img src="assets/img/back.png" alt="" style="width:20px; top:10px; left:10px; position:absolute;">\n  <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Editar dados</ion-title>\n  <hr>\n  <br>\n  <ion-list>\n        <ion-item>\n          <h3 style="margin-left: 10px;">Nome Completo</h3>\n        </ion-item>\n        <ion-item>\n            <h3 style="margin-left: 10px;">CPF</h3>\n          </ion-item>\n      <ion-item>\n        <img src="assets/icon/back.png" alt="" style="width:20px; transform: scaleX(-1); position:absolute; right:10px;">\n        <h3 style="margin-left: 10px;">Telefone</h3>\n      </ion-item>\n      <ion-item>\n        <img src="assets/icon/back.png" alt="" style="width:20px; transform: scaleX(-1); position:absolute; right:10px;">\n          <h3 style="margin-left: 10px;">E-mail</h3>\n      </ion-item>\n      <ion-item>\n        <img src="assets/icon/back.png" alt="" style="width:20px; transform: scaleX(-1); position:absolute; right:10px;">\n        <h3 style="margin-left: 10px;">Senha</h3>\n      </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/dados/dados.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], DadosPage);
+    return DadosPage;
+}());
+
+//# sourceMappingURL=dados.js.map
+
+/***/ }),
+
+/***/ 359:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
@@ -338,7 +387,7 @@ var HomePage = (function () {
 
 /***/ }),
 
-/***/ 359:
+/***/ 360:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -383,97 +432,7 @@ var InfoLojaPage = (function () {
 
 /***/ }),
 
-/***/ 360:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProdutoPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the ProdutoPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var ProdutoPage = (function () {
-    function ProdutoPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    ProdutoPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad ProdutoPage');
-    };
-    ProdutoPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-produto',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/produto/produto.html"*/'<ion-content>\n  <img src="assets/icon/back.png" alt="" style="width:20px; top:10px; position:absolute;">\n  <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Detalhes</ion-title>\n  <hr>\n  <br>\n  <ion-grid>\n    <ion-row>\n          <img src="assets/img/drinker.jpg" alt="">\n    </ion-row>\n          <h5>Nome do Produto</h5>\n          <p style="position: absolute; top:310px;">Descrição do produto</p>\n          <p><span style="color:#7ee19c;"> R$ </span> 00,00</p>\n    <ion-row style="margin-top: 50px;">\n      <button ion-button type="submit" style="background:#fff; color:#000; width: 120px;">\n        <img src="assets/img/mais.png" alt="" style="width: 10px; margin-right:10px;"> \n        1  <img src="assets/img/mais.png" alt="" style="width: 10px; margin-left:10px;">\n      </button>\n      <button ion-button type="submit" style="background:#7ee19c;">Adicionar R$ 10,00</button>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/produto/produto.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], ProdutoPage);
-    return ProdutoPage;
-}());
-
-//# sourceMappingURL=produto.js.map
-
-/***/ }),
-
 /***/ 361:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuarioPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the UsuarioPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var UsuarioPage = (function () {
-    function UsuarioPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    UsuarioPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad UsuarioPage');
-    };
-    UsuarioPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-usuario',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/'<ion-content>\n    <img src="assets/icon/back.png" alt="" style="width:20px; top:10px; position:absolute;">\n    <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Nome do Usuário</ion-title>\n    <hr>\n    <br>\n    <ion-list>\n        <ion-item>\n          <img src="assets/img/config.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Configurações</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/pedidos.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Pedidos</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/carteira.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Formas de Pagamento</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/cupons.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Cupons e Promoção</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/avalie.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Avaliar o app</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/ajuda.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Ajuda</h3>\n        </ion-item>\n      </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
-    ], UsuarioPage);
-    return UsuarioPage;
-}());
-
-//# sourceMappingURL=usuario.js.map
-
-/***/ }),
-
-/***/ 362:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -518,13 +477,103 @@ var ListaProdutosPage = (function () {
 
 /***/ }),
 
+/***/ 362:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProdutoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the ProdutoPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var ProdutoPage = (function () {
+    function ProdutoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    ProdutoPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ProdutoPage');
+    };
+    ProdutoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-produto',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/produto/produto.html"*/'<ion-content>\n  <img src="assets/icon/back.png" alt="" style="width:20px; top:10px; position:absolute;">\n  <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Detalhes</ion-title>\n  <hr>\n  <br>\n  <ion-grid>\n    <ion-row>\n          <img src="assets/img/drinker.jpg" alt="">\n    </ion-row>\n          <h5>Nome do Produto</h5>\n          <p style="position: absolute; top:310px;">Descrição do produto</p>\n          <p><span style="color:#7ee19c;"> R$ </span> 00,00</p>\n    <ion-row style="margin-top: 50px;">\n      <button ion-button type="submit" style="background:#fff; color:#000; width: 120px;">\n        <img src="assets/img/mais.png" alt="" style="width: 10px; margin-right:10px;"> \n        1  <img src="assets/img/mais.png" alt="" style="width: 10px; margin-left:10px;">\n      </button>\n      <button ion-button type="submit" style="background:#7ee19c;">Adicionar R$ 10,00</button>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/produto/produto.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], ProdutoPage);
+    return ProdutoPage;
+}());
+
+//# sourceMappingURL=produto.js.map
+
+/***/ }),
+
 /***/ 363:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UsuarioPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the UsuarioPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var UsuarioPage = (function () {
+    function UsuarioPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    UsuarioPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad UsuarioPage');
+    };
+    UsuarioPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-usuario',template:/*ion-inline-start:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/'<ion-content>\n    <img src="assets/icon/back.png" alt="" style="width:20px; top:10px; position:absolute;">\n    <ion-title style="padding: 10px!important; margin-left:20px; font-size: 10pt;">Nome do Usuário</ion-title>\n    <hr>\n    <br>\n    <ion-list>\n        <ion-item>\n          <img src="assets/img/config.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Configurações</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/pedidos.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Pedidos</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/carteira.png" alt="" style="width:20px; position:absolute;">\n          <h3 style="margin-left: 30px;">Formas de Pagamento</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/cupons.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Cupons e Promoção</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/avalie.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Avaliar o app</h3>\n        </ion-item>\n        <ion-item>\n            <img src="assets/img/ajuda.png" alt="" style="width:20px; position:absolute;">\n            <h3 style="margin-left: 30px;">Ajuda</h3>\n        </ion-item>\n      </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/willamis/workspace/TheDrinkerApp/src/pages/usuario/usuario.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], UsuarioPage);
+    return UsuarioPage;
+}());
+
+//# sourceMappingURL=usuario.js.map
+
+/***/ }),
+
+/***/ 364:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(364);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(384);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(365);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(385);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -532,7 +581,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 384:
+/***/ 385:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -540,28 +589,29 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(427);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__ = __webpack_require__(30);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_splash_screen__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(445);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(446);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2__ = __webpack_require__(450);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__ = __webpack_require__(451);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angularfire2_auth__ = __webpack_require__(465);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_angular2_moment__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_http__ = __webpack_require__(446);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_storage__ = __webpack_require__(447);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2__ = __webpack_require__(451);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__ = __webpack_require__(452);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angularfire2_auth__ = __webpack_require__(466);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_angular2_moment__ = __webpack_require__(468);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_angular2_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common_http__ = __webpack_require__(472);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_common_http__ = __webpack_require__(473);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_login_login__ = __webpack_require__(354);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_home_home__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_home_home__ = __webpack_require__(359);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_register_register__ = __webpack_require__(355);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_usuario_usuario__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_usuario_usuario__ = __webpack_require__(363);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_busca_busca__ = __webpack_require__(356);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_info_loja_info_loja__ = __webpack_require__(359);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_lista_produtos_lista_produtos__ = __webpack_require__(362);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_produto_produto__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_info_loja_info_loja__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_lista_produtos_lista_produtos__ = __webpack_require__(361);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_produto_produto__ = __webpack_require__(362);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_configuracao_configuracao__ = __webpack_require__(357);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_dados_dados__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_dados_dados__ = __webpack_require__(358);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_alterar_dados_alterar_dados__ = __webpack_require__(114);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -584,6 +634,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 // import services
 //importar as paginas criadas aqui
+
 
 
 
@@ -620,7 +671,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_19__pages_lista_produtos_lista_produtos__["a" /* ListaProdutosPage */],
                 __WEBPACK_IMPORTED_MODULE_20__pages_produto_produto__["a" /* ProdutoPage */],
                 __WEBPACK_IMPORTED_MODULE_21__pages_configuracao_configuracao__["a" /* ConfiguracaoPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_dados_dados__["a" /* DadosPage */]
+                __WEBPACK_IMPORTED_MODULE_22__pages_dados_dados__["a" /* DadosPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_alterar_dados_alterar_dados__["a" /* AlterarDadosPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser__["a" /* BrowserModule */],
@@ -633,14 +685,15 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_11_angular2_moment__["MomentModule"],
                 __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_2__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/alterar-dados/alterar-dados.module#AlterarDadosPageModule', name: 'AlterarDadosPage', segment: 'alterar-dados', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/busca/busca.module#BuscaPageModule', name: 'BuscaPage', segment: 'busca', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/configuracao/configuracao.module#ConfiguracaoPageModule', name: 'ConfiguracaoPage', segment: 'configuracao', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/dados/dados.module#DadosPageModule', name: 'DadosPage', segment: 'dados', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/info-loja/info-loja.module#InfoLojaPageModule', name: 'InfoLojaPage', segment: 'info-loja', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/lista-produtos/lista-produtos.module#ListaProdutosPageModule', name: 'ListaProdutosPage', segment: 'lista-produtos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/produto/produto.module#ProdutoPageModule', name: 'ProdutoPage', segment: 'produto', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/usuario/usuario.module#UsuarioPageModule', name: 'UsuarioPage', segment: 'usuario', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/lista-produtos/lista-produtos.module#ListaProdutosPageModule', name: 'ListaProdutosPage', segment: 'lista-produtos', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/usuario/usuario.module#UsuarioPageModule', name: 'UsuarioPage', segment: 'usuario', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
@@ -657,7 +710,8 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_19__pages_lista_produtos_lista_produtos__["a" /* ListaProdutosPage */],
                 __WEBPACK_IMPORTED_MODULE_20__pages_produto_produto__["a" /* ProdutoPage */],
                 __WEBPACK_IMPORTED_MODULE_21__pages_configuracao_configuracao__["a" /* ConfiguracaoPage */],
-                __WEBPACK_IMPORTED_MODULE_22__pages_dados_dados__["a" /* DadosPage */]
+                __WEBPACK_IMPORTED_MODULE_22__pages_dados_dados__["a" /* DadosPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_alterar_dados_alterar_dados__["a" /* AlterarDadosPage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
@@ -673,7 +727,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 426:
+/***/ 427:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -682,7 +736,7 @@ var AppModule = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_dados_dados__ = __webpack_require__(114);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_alterar_dados_alterar_dados__ = __webpack_require__(114);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth_auth__ = __webpack_require__(109);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -711,7 +765,7 @@ var MyApp = (function () {
             // Here you can do any higher level native things you might need.
             statusBar.styleDefault();
             splashScreen.hide();
-            _this.nav.setRoot(__WEBPACK_IMPORTED_MODULE_4__pages_dados_dados__["a" /* DadosPage */]);
+            _this.nav.setRoot(__WEBPACK_IMPORTED_MODULE_4__pages_alterar_dados_alterar_dados__["a" /* AlterarDadosPage */]);
             // get user data
             afAuth.authState.subscribe(function (authData) {
                 if (authData) {
@@ -735,7 +789,7 @@ var MyApp = (function () {
 
 /***/ }),
 
-/***/ 469:
+/***/ 470:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -1000,9 +1054,9 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 469;
+webpackContext.id = 470;
 
 /***/ })
 
-},[363]);
+},[364]);
 //# sourceMappingURL=main.js.map
