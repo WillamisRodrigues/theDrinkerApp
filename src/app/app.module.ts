@@ -30,6 +30,7 @@ import {ConfiguracaoPage} from './../pages/configuracao/configuracao';
 import {DadosPage} from './../pages/dados/dados';
 import {AlterarDadosPage} from './../pages/alterar-dados/alterar-dados';
 import{CarrinhoPage} from './../pages/carrinho/carrinho';
+import {NotificacaoPage} from './../pages/notificacao/notificacao';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyBrtAgU0fHKzwi99jFC0ETM_GRgnTwxoY4",
@@ -56,7 +57,8 @@ export const firebaseConfig = {
     ConfiguracaoPage,
     DadosPage,
     AlterarDadosPage,
-    CarrinhoPage
+    CarrinhoPage,
+    NotificacaoPage
   ],
   imports: [
     BrowserModule,
@@ -84,7 +86,8 @@ export const firebaseConfig = {
     ConfiguracaoPage,
     DadosPage,
     AlterarDadosPage,
-    CarrinhoPage
+    CarrinhoPage,
+    NotificacaoPage
   ],
   providers: [
     StatusBar,
