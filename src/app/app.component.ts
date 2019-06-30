@@ -14,6 +14,7 @@ import { ProdutoPage } from '../pages/produto/produto';
 import { ConfiguracaoPage } from '../pages/configuracao/configuracao';
 import { DadosPage } from '../pages/dados/dados';
 import { AlterarDadosPage } from '../pages/alterar-dados/alterar-dados';
+import {CarrinhoPage} from '../pages/carrinho/carrinho';
 
 // import pages
 import { AngularFireAuth } from "angularfire2/auth/auth";
@@ -36,7 +37,7 @@ export class MyApp {
       // Here you can do any higher level native things you might need.
       statusBar.styleDefault();
       splashScreen.hide();
-          this.nav.setRoot(AlterarDadosPage);
+          this.nav.setRoot(CarrinhoPage);
 
       // get user data
       afAuth.authState.subscribe(authData => {
